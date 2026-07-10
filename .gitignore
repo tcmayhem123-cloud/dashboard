@@ -1,9 +1,6 @@
-# MongoDB binaries and database storage files
-mongodb/data/
-mongodb/bin/
-mongodb/mongod.exe
-mongodb/mongosh.exe
-mongodb/start_mongodb.bat
+# MongoDB folder (exclude the huge binary downloads and data files)
+mongodb/
+!mongodb/start_mongodb.bat
 
 # Node modules and build files
 frontend/node_modules/
