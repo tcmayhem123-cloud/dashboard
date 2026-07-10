@@ -1,0 +1,23 @@
+# MongoDB binaries and database storage files
+mongodb/data/
+mongodb/bin/
+mongodb/mongod.exe
+mongodb/mongosh.exe
+mongodb/start_mongodb.bat
+
+# Node modules and build files
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Python caching and environments
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
